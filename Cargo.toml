@@ -17,8 +17,8 @@ travis-ci = { repository = "rust-xed/xed-sys" }
 [dependencies]
 
 [build-dependencies]
-bindgen = { version = "0.66.1", features = ["runtime"] }
-target-lexicon = "0.12"
+bindgen = { version = "=0.66.1", features = ["runtime"] }
+target-lexicon = "=0.12"
 
 [workspace]
 members = [
